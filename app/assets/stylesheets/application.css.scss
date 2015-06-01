@@ -1,0 +1,30 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'bootstrap-datetimepicker';
+
+body {
+  background: #60b9ce;
+}
+
+h2 {
+  color: #a36419;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+#task-form {
+  margin:10px 0;
+  background: #206676;
+  padding: 10px 10px 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background: none;
+  text-decoration:line-through;
+  color: #a36419;
+}
+}
